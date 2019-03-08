@@ -6,7 +6,7 @@
         {
             "label": "Sass compile",
             "type": "shell",
-            "command": "node-sass Home_files/src/trafford-ccg.scss Home_files/out/trafford-ccg.css",
+            "command": "node-sass resources/src/trafford-ccg.scss resources/out/trafford-ccg.css",
             "group": "build"
         }
     ]

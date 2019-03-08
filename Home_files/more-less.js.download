@@ -1,0 +1,9 @@
+﻿$(function () {
+	$('.more-block2').hide();
+	$(".more-less2").append('<div class="adjust" style="cursor:pointer">Show more \u25bc</div>');
+	$('.more-less2').on('click', '.adjust', function (e) {
+      	e.stopPropagation();
+		$(this).siblings('.more-block2').slideToggle();
+		($(this).text() === 'Show more \u25bc') ? $(this).text('Show less \u25b2') : $(this).text('Show more \u25bc');
+	});
+});

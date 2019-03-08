@@ -32,10 +32,9 @@ $font_0: Noto Sans;
 $font_1: sans-serif;
 
 //urls
-$url_0: url(https://www.traffordccg.nhs.uk/Site-elements/Images/ccgheader.svg);
-$url_1: url(https://www.traffordccg.nhs.uk/images/bg.png);
-$url_2: url(https://www.traffordccg.nhs.uk/Site-elements/Images/mag.png);
-$url_3: url(https://www.traffordccg.nhs.uk/Site-elements/Images/ccgfooter.svg);
+$url_0: url(/resources/Images/ccgheader.svg);
+$url_2: url(/resources/Images/mag.png);
+$url_3: url(/resources/Images/ccgfooter.svg);
 
 //@extend-elements
 //original selectors
@@ -1299,7 +1298,6 @@ only screen and(min-resolution: 2dppx) and(max-width: 1024px) {
             padding: 18px 25px;
             text-transform: uppercase;
             letter-spacing: 1px;
-            background: $url_1;
             cursor: pointer;
             width: 140px;
         }

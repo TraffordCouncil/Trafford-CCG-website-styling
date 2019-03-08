@@ -1,0 +1,142 @@
+/* News Controls */
+	
+	/* Listing Control */
+	.sys_theme-simple.sys_news .sys_news-control {
+	float: left;
+	margin:0;
+	padding:0;
+	width:70%;
+	}
+	
+		/* Title */
+		.sys_theme-simple .sys_news-control .sys_news-title {}
+		
+		
+		/* Repeating Item */
+		.sys_theme-simple .sys_thingstodo-control .sys_subitem {}
+		
+		/* Item Heading */	
+		.sys_theme-simple .sys_news-control .sys_subitem .sys_news-subheading {
+		display:block;
+		font-size:1em;
+		margin:-2px 0 10px 12px;
+		padding:0;
+		position:relative;
+		z-index:99;
+		background:#f7f7f7;
+		}
+		
+			.sys_theme-simple .sys_news-control .sys_subitem .sys_news-subheading a {
+			margin:0;
+			padding:5px 0 0 4px;
+			display:inline-block;
+			font-weight: bold;
+			text-decoration: none;
+			position:relative;
+			z-index:100;
+			top:-1em;
+			}
+			
+				.sys_theme-simple .sys_news-control .sys_subitem .sys_news-subheading a:hover {
+				text-decoration: underline;
+				}
+				
+		/* Icon */
+		/* Adds a default Blank Icon */
+		.sys_theme-simple .sys_news-control .sys_itemslist div.sys_icon {
+		float: right;
+		width:32px;
+		height:32px;
+		background-position:0 0;
+		background-repeat:no-repeat;
+		background-image:url("imgs/contenttypes/large/blank.gif");}
+		
+		/* Item Summary Wrapper */
+		.sys_theme-simple .sys_news-control .sys_itemslist .sys_subitem .sys_news-summary {
+		position:relative;
+		z-index:300;
+		top:-15px;
+		margin:0;
+		padding:0 0 0 9px;
+		min-height:1em;
+		zoom:1;
+		}
+			
+			/* Description */
+			.sys_theme-simple .sys_news-control .sys_itemslist .sys_subitem dl dt.sys_news-description {
+			display:none;}
+			
+			.sys_theme-simple .sys_news-control .sys_itemslist .sys_subitem dl dd.sys_news-description {
+			display:block;
+			color: #484848;}
+			
+			/* Date published */
+			.sys_theme-simple .sys_news-control .sys_itemslist .sys_subitem dl dt.sys_news-datepublished {
+			display:none;}
+			.sys_theme-simple .sys_news-control .sys_itemslist .sys_subitem dl dd.sys_news-datepublished {
+			}
+			
+			
+	/* Search Options */
+	.sys_theme-simple.sys_news .sys_news-search-control {
+	float:right;
+	width:27%;
+	min-height:1em;
+	}
+		.sys_theme-simple .sys_news-search-control .sys_basic-search-row, .sys_theme-simple .sys_news-search-control .sys_search-row {
+		margin-bottom:.8em;}
+	
+			.sys_theme-simple .sys_news-search-control label {
+			width:100%;
+			display:block;
+			margin:0 0 .2em 0;
+			}
+			
+			.sys_theme-simple .sys_news-search-control input {
+			width:95%;
+			}
+			
+			.sys_theme-simple .sys_news-search-control select {
+			width:98%;
+			}
+
+	
+	/* Standard and Mini Combo Control */
+	.sys_theme-simple .sys_news-standardminicombo .sys_standard-list {
+	width:auto;
+	margin:0;
+	padding:0;
+	float:none;}
+		.sys_theme-simple .sys_news-standardminicombo .sys_standard-list .sys_datarepeatercontrol {
+		margin:0;}
+		
+	.sys_theme-simple .sys_news-standardminicombo .sys_news-minilist-control {
+	width:auto;
+	margin:0;
+	padding:0;
+	float:none;}
+		.sys_theme-simple .sys_news-standardminicombo .sys_news-minilist-control .sys_datarepeatercontrol {
+		margin:0;}
+	
+		/* temp... */
+		.sys_theme-simple .sys_bookmark-control {
+		margin:0 0 10px 0;
+		padding:10px;
+		border:1px solid #ccc;
+		color:#666;
+		background:#fff;}
+			.sys_theme-simple .sys_bookmark-control li {
+			list-style-type:none;
+			padding:0 15px;
+			display:inline;
+			font-size:140%;}
+		/* --- */
+		
+	/* News Record Control */
+	.sys_theme-simple .sys_news-record .sys_news-posted-date {
+	font-weight:400;
+	padding:.5em 0;
+	font-size:1.1em;
+	margin:0 0 10px 0;
+	border-top:1px solid #ebebeb;
+	border-bottom:1px solid #ebebeb;}
